@@ -1,0 +1,16 @@
+package com.example.backend.dto.view;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.io.Serializable;
+import java.util.List;
+
+@Data
+public class ProductSetSaleDto implements Serializable {
+    private String name;
+    private List<CategorySaleDto> categoryList;
+
+
+}
