@@ -1,14 +1,13 @@
 package com.example.backend.controler.view;
 
-
-import com.application.fusamate.configuration.Constants;
-import com.application.fusamate.dto.CustomerDto;
-import com.application.fusamate.entity.Customer;
-import com.application.fusamate.model.CustomerAuthenModel;
-import com.application.fusamate.model.CustomerRegisterModel;
-import com.application.fusamate.model.LoginGoogleModel;
-import com.application.fusamate.model.ResponseChangeDataModel;
-import com.application.fusamate.service.CustomerService;
+import com.example.backend.config.Constants;
+import com.example.backend.dto.CustomerDto;
+import com.example.backend.entity.Customer;
+import com.example.backend.model.CustomerAuthenModel;
+import com.example.backend.model.CustomerRegisterModel;
+import com.example.backend.model.LoginGoogleModel;
+import com.example.backend.model.ResponseChangeDataModel;
+import com.example.backend.service.CustomerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

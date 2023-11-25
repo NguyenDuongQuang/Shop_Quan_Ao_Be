@@ -1,8 +1,8 @@
-package com.application.fusamate.service;
+package com.example.backend.service;
 
-import com.application.fusamate.dto.VoucherDto;
-import com.application.fusamate.entity.Voucher;
-import com.application.fusamate.model.VoucherSearchCriteriaModel;
+import com.example.backend.dto.VoucherDto;
+import com.example.backend.entity.Voucher;
+import com.example.backend.model.VoucherSearchCriteriaModel;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

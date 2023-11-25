@@ -1,10 +1,8 @@
-package com.application.fusamate.service;
-
-
-import com.application.fusamate.dto.CustomerDto;
-import com.application.fusamate.dto.UpdateCustomerDto;
-import com.application.fusamate.entity.Customer;
-import com.application.fusamate.model.CustomerSearchCriteriaModel;
+package com.example.backend.service;
+import com.example.backend.dto.CustomerDto;
+import com.example.backend.dto.UpdateCustomerDto;
+import com.example.backend.entity.Customer;
+import com.example.backend.model.CustomerSearchCriteriaModel;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

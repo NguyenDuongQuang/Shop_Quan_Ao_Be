@@ -1,5 +1,5 @@
 package com.example.backend.model;
-import com.example.backend.dto.admin.EmployeeDto;
+import com.example.backend.dto.EmployeeDto;
 
 public class JwtResponseModel {
     private final String access_token;

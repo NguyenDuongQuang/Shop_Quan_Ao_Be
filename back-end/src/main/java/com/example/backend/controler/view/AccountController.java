@@ -1,8 +1,8 @@
 package com.example.backend.controler.view;
 
-import com.application.fusamate.dto.UpdateCustomerDto;
-import com.application.fusamate.service.CustomerService;
-import com.application.fusamate.service.sale.OrderService;
+import com.example.backend.dto.UpdateCustomerDto;
+import com.example.backend.service.CustomerService;
+import com.example.backend.service.view.OrderService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;

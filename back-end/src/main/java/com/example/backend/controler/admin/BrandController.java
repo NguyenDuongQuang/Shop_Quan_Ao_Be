@@ -1,12 +1,12 @@
 package com.example.backend.controler.admin;
 
-import com.application.fusamate.dto.BrandDto;
-import com.application.fusamate.dto.UpdateBrandDto;
-import com.application.fusamate.entity.Brand;
-import com.application.fusamate.model.BrandSearchCriteriaModel;
-import com.application.fusamate.model.ResponseChangeDataModel;
-import com.application.fusamate.model.ResponseGetDataModel;
-import com.application.fusamate.service.BrandService;
+import com.example.backend.dto.BrandDto;
+import com.example.backend.dto.UpdateBrandDto;
+import com.example.backend.entity.Brand;
+import com.example.backend.model.BrandSearchCriteriaModel;
+import com.example.backend.model.ResponseChangeDataModel;
+import com.example.backend.model.ResponseGetDataModel;
+import com.example.backend.service.BrandService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;

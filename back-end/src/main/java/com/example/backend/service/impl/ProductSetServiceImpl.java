@@ -1,12 +1,11 @@
-package com.application.fusamate.service.impl;
-
-import com.application.fusamate.configuration.Constants;
-import com.application.fusamate.dto.ProductSetDto;
-import com.application.fusamate.entity.ProductSet;
-import com.application.fusamate.model.ProductSetSearchCriteriaModel;
-import com.application.fusamate.repository.ProductSetRepository;
-import com.application.fusamate.repository.criteria.ProductSetCriteriaRepository;
-import com.application.fusamate.service.ProductSetService;
+package com.example.backend.service.impl;
+import com.example.backend.config.Constants;
+import com.example.backend.dto.ProductSetDto;
+import com.example.backend.entity.ProductSet;
+import com.example.backend.model.ProductSetSearchCriteriaModel;
+import com.example.backend.repository.ProductSetRepository;
+import com.example.backend.repository.criteria.ProductSetCriteriaRepository;
+import com.example.backend.service.ProductSetService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;

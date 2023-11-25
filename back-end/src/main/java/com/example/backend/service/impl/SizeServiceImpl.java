@@ -1,13 +1,13 @@
-package com.application.fusamate.service.impl;
+package com.example.backend.service.impl;
 
-import com.application.fusamate.configuration.Constants;
-import com.application.fusamate.dto.SizeDto;
-import com.application.fusamate.dto.UpdateSizeDto;
-import com.application.fusamate.entity.Size;
-import com.application.fusamate.model.SizeSearchCriteriaModel;
-import com.application.fusamate.repository.SizeRepository;
-import com.application.fusamate.repository.criteria.SizeCriteriaRepository;
-import com.application.fusamate.service.SizeService;
+import com.example.backend.config.Constants;
+import com.example.backend.dto.SizeDto;
+import com.example.backend.dto.UpdateSizeDto;
+import com.example.backend.entity.Size;
+import com.example.backend.model.SizeSearchCriteriaModel;
+import com.example.backend.repository.SizeRepository;
+import com.example.backend.repository.criteria.SizeCriteriaRepository;
+import com.example.backend.service.SizeService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;

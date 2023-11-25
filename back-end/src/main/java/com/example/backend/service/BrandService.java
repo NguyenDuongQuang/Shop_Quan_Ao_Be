@@ -1,10 +1,9 @@
 package com.example.backend.service;
 
-
-import com.application.fusamate.model.BrandSearchCriteriaModel;
-import com.example.backend.dto.admin.BrandDto;
-import com.example.backend.dto.admin.UpdateBrandDto;
+import com.example.backend.dto.BrandDto;
+import com.example.backend.dto.UpdateBrandDto;
 import com.example.backend.entity.Brand;
+import com.example.backend.model.BrandSearchCriteriaModel;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

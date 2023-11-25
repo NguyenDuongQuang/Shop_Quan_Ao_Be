@@ -1,13 +1,13 @@
-package com.application.fusamate.service.impl;
+package com.example.backend.service.impl;
 
-import com.application.fusamate.configuration.Constants;
-import com.application.fusamate.dto.CustomerDto;
-import com.application.fusamate.dto.UpdateCustomerDto;
-import com.application.fusamate.entity.Customer;
-import com.application.fusamate.model.CustomerSearchCriteriaModel;
-import com.application.fusamate.repository.CustomerRepository;
-import com.application.fusamate.repository.criteria.CustomerCriteriaRepository;
-import com.application.fusamate.service.CustomerService;
+import com.example.backend.config.Constants;
+import com.example.backend.dto.CustomerDto;
+import com.example.backend.dto.UpdateCustomerDto;
+import com.example.backend.entity.Customer;
+import com.example.backend.model.CustomerSearchCriteriaModel;
+import com.example.backend.repository.CustomerRepository;
+import com.example.backend.repository.criteria.CustomerCriteriaRepository;
+import com.example.backend.service.CustomerService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;

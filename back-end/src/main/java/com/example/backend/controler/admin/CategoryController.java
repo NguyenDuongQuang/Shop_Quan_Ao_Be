@@ -1,13 +1,12 @@
 package com.example.backend.controler.admin;
 
-
-import com.application.fusamate.dto.CategoryDto;
-import com.application.fusamate.dto.UpdateCategoryDto;
-import com.application.fusamate.entity.Category;
-import com.application.fusamate.model.CategorySearchCriteriaModel;
-import com.application.fusamate.model.ResponseChangeDataModel;
-import com.application.fusamate.model.ResponseGetDataModel;
-import com.application.fusamate.service.CategoryService;
+import com.example.backend.dto.CategoryDto;
+import com.example.backend.dto.UpdateCategoryDto;
+import com.example.backend.entity.Category;
+import com.example.backend.model.CategorySearchCriteriaModel;
+import com.example.backend.model.ResponseChangeDataModel;
+import com.example.backend.model.ResponseGetDataModel;
+import com.example.backend.service.CategoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;

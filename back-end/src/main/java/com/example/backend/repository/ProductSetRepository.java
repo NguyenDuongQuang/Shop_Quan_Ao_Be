@@ -1,6 +1,5 @@
-package com.application.fusamate.repository;
-
-import com.application.fusamate.entity.ProductSet;
+package com.example.backend.repository;
+import com.example.backend.entity.ProductSet;
 import org.springframework.data.jpa.repository.JpaRepository;
 import lombok.NonNull;
 import org.springframework.stereotype.Repository;

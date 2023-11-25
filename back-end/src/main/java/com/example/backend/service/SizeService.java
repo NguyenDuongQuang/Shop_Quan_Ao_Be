@@ -1,10 +1,9 @@
-package com.application.fusamate.service;
+package com.example.backend.service;
 
-import com.application.fusamate.dto.SizeDto;
-import com.application.fusamate.dto.UpdateSizeDto;
-import com.application.fusamate.entity.MadeIn;
-import com.application.fusamate.entity.Size;
-import com.application.fusamate.model.SizeSearchCriteriaModel;
+import com.example.backend.dto.SizeDto;
+import com.example.backend.dto.UpdateSizeDto;
+import com.example.backend.entity.Size;
+import com.example.backend.model.SizeSearchCriteriaModel;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

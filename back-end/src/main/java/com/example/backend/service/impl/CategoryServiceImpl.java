@@ -1,15 +1,14 @@
-package com.application.fusamate.service.impl;
+package com.example.backend.service.impl;
 
-
-import com.application.fusamate.configuration.Constants;
-import com.application.fusamate.dto.CategoryDto;
-import com.application.fusamate.dto.UpdateCategoryDto;
-import com.application.fusamate.entity.Category;
-import com.application.fusamate.model.CategorySearchCriteriaModel;
-import com.application.fusamate.repository.CategoryRepository;
-import com.application.fusamate.repository.ProductSetRepository;
-import com.application.fusamate.repository.criteria.CategoryCriteriaRepository;
-import com.application.fusamate.service.CategoryService;
+import com.example.backend.config.Constants;
+import com.example.backend.dto.CategoryDto;
+import com.example.backend.dto.UpdateCategoryDto;
+import com.example.backend.entity.Category;
+import com.example.backend.model.CategorySearchCriteriaModel;
+import com.example.backend.repository.CategoryRepository;
+import com.example.backend.repository.ProductSetRepository;
+import com.example.backend.repository.criteria.CategoryCriteriaRepository;
+import com.example.backend.service.CategoryService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;

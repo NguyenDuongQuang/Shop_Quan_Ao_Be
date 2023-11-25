@@ -1,6 +1,5 @@
-package com.application.fusamate.repository;
-
-import com.application.fusamate.entity.PromotionCategory;
+package com.example.backend.repository;
+import com.example.backend.entity.PromotionCategory;
 import lombok.NonNull;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

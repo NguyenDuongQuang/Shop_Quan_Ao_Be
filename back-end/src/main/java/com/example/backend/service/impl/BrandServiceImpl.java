@@ -1,13 +1,13 @@
-package com.application.fusamate.service.impl;
+package com.example.backend.service.impl;
 
-import com.application.fusamate.configuration.Constants;
-import com.application.fusamate.dto.BrandDto;
-import com.application.fusamate.dto.UpdateBrandDto;
-import com.application.fusamate.entity.Brand;
-import com.application.fusamate.model.BrandSearchCriteriaModel;
-import com.application.fusamate.repository.BrandRepository;
-import com.application.fusamate.repository.criteria.BrandCriteriaRepository;
-import com.application.fusamate.service.BrandService;
+import com.example.backend.config.Constants;
+import com.example.backend.dto.BrandDto;
+import com.example.backend.dto.UpdateBrandDto;
+import com.example.backend.entity.Brand;
+import com.example.backend.model.BrandSearchCriteriaModel;
+import com.example.backend.repository.BrandRepository;
+import com.example.backend.repository.criteria.BrandCriteriaRepository;
+import com.example.backend.service.BrandService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;

@@ -1,9 +1,10 @@
 package com.example.backend.controler.view;
 
-import com.application.fusamate.dto.sale.*;
-import com.application.fusamate.model.ResponseChangeDataModel;
-import com.application.fusamate.model.ResponseGetDataModel;
-import com.application.fusamate.service.sale.CartService;
+import com.example.backend.dto.sale.ItemAddedToCartDto;
+import com.example.backend.dto.sale.ItemQuantityUpdateToCartDto;
+import com.example.backend.dto.sale.ItemRemovedFromCartDto;
+import com.example.backend.model.ResponseChangeDataModel;
+import com.example.backend.service.view.CartService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

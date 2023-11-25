@@ -1,18 +1,19 @@
 package com.example.backend.controler.admin;
 
-import com.application.fusamate.configuration.Constants;
-import com.application.fusamate.configuration.MailTemplate;
-import com.application.fusamate.dto.EmployeeDto;
-import com.application.fusamate.entity.Employee;
-import com.application.fusamate.model.ChangePasswordModel;
-import com.application.fusamate.model.JwtRequestModel;
-import com.application.fusamate.model.JwtResponseModel;
-import com.application.fusamate.model.ResetPasswordModel;
-import com.application.fusamate.repository.EmployeeRepository;
-import com.application.fusamate.service.EmployeeService;
-import com.application.fusamate.service.impl.EmployeeServiceImpl;
-import com.application.fusamate.utils.EmailService;
-import com.application.fusamate.utils.TokenManager;
+
+import com.example.backend.config.Constants;
+import com.example.backend.config.MailTemplate;
+import com.example.backend.dto.EmployeeDto;
+import com.example.backend.entity.Employee;
+import com.example.backend.model.ChangePasswordModel;
+import com.example.backend.model.JwtRequestModel;
+import com.example.backend.model.JwtResponseModel;
+import com.example.backend.model.ResetPasswordModel;
+import com.example.backend.repository.EmployeeRepository;
+import com.example.backend.service.EmployeeService;
+import com.example.backend.service.impl.EmployeeServiceImpl;
+import com.example.backend.util.EmailService;
+import com.example.backend.util.TokenManager;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;
 import org.springframework.http.HttpHeaders;

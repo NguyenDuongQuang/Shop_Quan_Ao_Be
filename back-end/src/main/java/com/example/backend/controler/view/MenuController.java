@@ -1,6 +1,6 @@
 package com.example.backend.controler.view;
 
-import com.application.fusamate.service.sale.MenuService;
+import com.example.backend.service.view.MenuService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;

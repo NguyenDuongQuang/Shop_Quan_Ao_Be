@@ -1,13 +1,13 @@
-package com.application.fusamate.service.impl;
+package com.example.backend.service.impl;
 
-import com.application.fusamate.configuration.Constants;
-import com.application.fusamate.dto.ColorDto;
-import com.application.fusamate.dto.UpdateColorDto;
-import com.application.fusamate.entity.Color;
-import com.application.fusamate.model.ColorSearchCriteriaModel;
-import com.application.fusamate.repository.ColorRepository;
-import com.application.fusamate.repository.criteria.ColorCriteriaRepository;
-import com.application.fusamate.service.ColorService;
+import com.example.backend.config.Constants;
+import com.example.backend.dto.ColorDto;
+import com.example.backend.dto.UpdateColorDto;
+import com.example.backend.entity.Color;
+import com.example.backend.model.ColorSearchCriteriaModel;
+import com.example.backend.repository.ColorRepository;
+import com.example.backend.repository.criteria.ColorCriteriaRepository;
+import com.example.backend.service.ColorService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;

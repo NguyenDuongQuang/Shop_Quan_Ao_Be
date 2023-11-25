@@ -1,12 +1,12 @@
 package com.example.backend.controler.admin;
 
-import com.application.fusamate.dto.*;
-import com.application.fusamate.dto.UpdateMadeInDto;
-import com.application.fusamate.entity.MadeIn;
-import com.application.fusamate.model.MadeInSearchCriteriaModel;
-import com.application.fusamate.model.ResponseChangeDataModel;
-import com.application.fusamate.model.ResponseGetDataModel;
-import com.application.fusamate.service.MadeInService;
+import com.example.backend.dto.MadeInDto;
+import com.example.backend.dto.UpdateMadeInDto;
+import com.example.backend.entity.MadeIn;
+import com.example.backend.model.MadeInSearchCriteriaModel;
+import com.example.backend.model.ResponseChangeDataModel;
+import com.example.backend.model.ResponseGetDataModel;
+import com.example.backend.service.MadeInService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;

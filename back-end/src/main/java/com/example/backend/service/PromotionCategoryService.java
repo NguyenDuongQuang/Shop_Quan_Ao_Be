@@ -1,9 +1,9 @@
-package com.application.fusamate.service;
+package com.example.backend.service;
 
-import com.application.fusamate.dto.PromotionCategoryDto;
-import com.application.fusamate.dto.UpdatePromotionCategoryDto;
-import com.application.fusamate.entity.PromotionCategory;
-import com.application.fusamate.model.PromotionCategorySearchCriteriaModel;
+import com.example.backend.dto.PromotionCategoryDto;
+import com.example.backend.dto.UpdatePromotionCategoryDto;
+import com.example.backend.entity.PromotionCategory;
+import com.example.backend.model.PromotionCategorySearchCriteriaModel;
 import org.springframework.data.domain.Page;
 
 public interface PromotionCategoryService {

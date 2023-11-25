@@ -1,8 +1,8 @@
-package com.application.fusamate.service;
+package com.example.backend.service;
 
-import com.application.fusamate.dto.ProductSetDto;
-import com.application.fusamate.entity.ProductSet;
-import com.application.fusamate.model.ProductSetSearchCriteriaModel;
+import com.example.backend.dto.ProductSetDto;
+import com.example.backend.entity.ProductSet;
+import com.example.backend.model.ProductSetSearchCriteriaModel;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

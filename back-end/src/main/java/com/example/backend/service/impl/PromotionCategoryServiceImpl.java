@@ -1,13 +1,13 @@
-package com.application.fusamate.service.impl;
+package com.example.backend.service.impl;
 
-import com.application.fusamate.configuration.Constants;
-import com.application.fusamate.dto.PromotionCategoryDto;
-import com.application.fusamate.dto.UpdatePromotionCategoryDto;
-import com.application.fusamate.entity.PromotionCategory;
-import com.application.fusamate.model.PromotionCategorySearchCriteriaModel;
-import com.application.fusamate.repository.*;
-import com.application.fusamate.repository.criteria.PromotionCategoryCriteriaRepository;
-import com.application.fusamate.service.PromotionCategoryService;
+import com.example.backend.config.Constants;
+import com.example.backend.dto.PromotionCategoryDto;
+import com.example.backend.dto.UpdatePromotionCategoryDto;
+import com.example.backend.entity.PromotionCategory;
+import com.example.backend.model.PromotionCategorySearchCriteriaModel;
+import com.example.backend.repository.*;
+import com.example.backend.repository.criteria.PromotionCategoryCriteriaRepository;
+import com.example.backend.service.PromotionCategoryService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;

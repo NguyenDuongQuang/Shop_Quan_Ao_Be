@@ -1,8 +1,8 @@
-package com.application.fusamate.repository;
+package com.example.backend.repository;
 
-import com.application.fusamate.entity.Orders;
-import com.application.fusamate.entity.stats.AnnualReport;
-import com.application.fusamate.entity.stats.TopSalesCustomer;
+import com.example.backend.entity.AnnualReport;
+import com.example.backend.entity.Orders;
+import com.example.backend.entity.TopSalesCustomer;
 import lombok.NonNull;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

@@ -1,10 +1,9 @@
-package com.application.fusamate.service;
-
-import com.application.fusamate.dto.stats.StatusCountStatsDto;
-import com.application.fusamate.entity.stats.AnnualReport;
-import com.application.fusamate.entity.stats.CustomerGrowthReport;
-import com.application.fusamate.entity.stats.TopSalesCustomer;
-import com.application.fusamate.entity.stats.TopSalesProduct;
+package com.example.backend.service;
+import com.example.backend.dto.sale.StatusCountStatsDto;
+import com.example.backend.entity.AnnualReport;
+import com.example.backend.entity.CustomerGrowthReport;
+import com.example.backend.entity.TopSalesCustomer;
+import com.example.backend.entity.TopSalesProduct;
 
 import java.util.List;
 

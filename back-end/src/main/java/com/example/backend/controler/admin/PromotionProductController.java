@@ -1,12 +1,12 @@
 package com.example.backend.controler.admin;
 
-import com.application.fusamate.dto.PromotionProductDto;
-import com.application.fusamate.dto.UpdatePromotionProductDto;
-import com.application.fusamate.entity.PromotionProduct;
-import com.application.fusamate.model.PromotionProductSearchCriteriaModel;
-import com.application.fusamate.model.ResponseChangeDataModel;
-import com.application.fusamate.model.ResponseGetDataModel;
-import com.application.fusamate.service.PromotionProductService;
+import com.example.backend.dto.PromotionProductDto;
+import com.example.backend.dto.UpdatePromotionProductDto;
+import com.example.backend.entity.PromotionProduct;
+import com.example.backend.model.PromotionProductSearchCriteriaModel;
+import com.example.backend.model.ResponseChangeDataModel;
+import com.example.backend.model.ResponseGetDataModel;
+import com.example.backend.service.PromotionProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;

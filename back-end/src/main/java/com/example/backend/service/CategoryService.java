@@ -1,9 +1,9 @@
 package com.example.backend.service;
 
-import com.application.fusamate.model.CategorySearchCriteriaModel;
-import com.example.backend.dto.admin.CategoryDto;
-import com.example.backend.dto.admin.UpdateCategoryDto;
+import com.example.backend.dto.CategoryDto;
+import com.example.backend.dto.UpdateCategoryDto;
 import com.example.backend.entity.Category;
+import com.example.backend.model.CategorySearchCriteriaModel;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

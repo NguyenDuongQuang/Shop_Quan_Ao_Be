@@ -1,15 +1,15 @@
-package com.application.fusamate.service.impl;
+package com.example.backend.service.impl;
 
-import com.application.fusamate.configuration.Constants;
-import com.application.fusamate.dto.ProductDetailDto;
-import com.application.fusamate.dto.UpdateProductDetailDto;
-import com.application.fusamate.entity.Product;
-import com.application.fusamate.entity.ProductDetail;
-import com.application.fusamate.entity.PromotionProduct;
-import com.application.fusamate.model.ProductDetailSearchCriteriaModel;
-import com.application.fusamate.repository.*;
-import com.application.fusamate.repository.criteria.ProductDetailCriteriaRepository;
-import com.application.fusamate.service.ProductDetailService;
+import com.example.backend.config.Constants;
+import com.example.backend.dto.ProductDetailDto;
+import com.example.backend.dto.UpdateProductDetailDto;
+import com.example.backend.entity.Product;
+import com.example.backend.entity.ProductDetail;
+import com.example.backend.entity.PromotionProduct;
+import com.example.backend.model.ProductDetailSearchCriteriaModel;
+import com.example.backend.repository.*;
+import com.example.backend.repository.criteria.ProductDetailCriteriaRepository;
+import com.example.backend.service.ProductDetailService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;

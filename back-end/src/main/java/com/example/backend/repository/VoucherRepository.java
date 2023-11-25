@@ -1,6 +1,5 @@
-package com.application.fusamate.repository;
-
-import com.application.fusamate.entity.Voucher;
+package com.example.backend.repository;
+import com.example.backend.entity.Voucher;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.lang.NonNull;

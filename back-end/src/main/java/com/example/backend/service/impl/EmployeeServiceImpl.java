@@ -1,14 +1,14 @@
-package com.application.fusamate.service.impl;
+package com.example.backend.service.impl;
 
-import com.application.fusamate.configuration.Constants;
-import com.application.fusamate.dto.EmployeeDto;
-import com.application.fusamate.dto.UpdateProfileDto;
-import com.application.fusamate.entity.Employee;
-import com.application.fusamate.model.EmployeeSearchCriteriaModel;
-import com.application.fusamate.repository.EmployeeRepository;
-import com.application.fusamate.repository.criteria.EmployeeCriteriaRepository;
-import com.application.fusamate.service.EmployeeService;
-import com.application.fusamate.utils.BaseHelper;
+import com.example.backend.config.Constants;
+import com.example.backend.dto.EmployeeDto;
+import com.example.backend.dto.UpdateProfileDto;
+import com.example.backend.entity.Employee;
+import com.example.backend.model.EmployeeSearchCriteriaModel;
+import com.example.backend.repository.EmployeeRepository;
+import com.example.backend.repository.criteria.EmployeeCriteriaRepository;
+import com.example.backend.service.EmployeeService;
+import com.example.backend.util.BaseHelper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;

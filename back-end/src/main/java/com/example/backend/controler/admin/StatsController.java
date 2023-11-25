@@ -1,6 +1,6 @@
 package com.example.backend.controler.admin;
 
-import com.application.fusamate.service.StatsService;
+import com.example.backend.service.StatsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;

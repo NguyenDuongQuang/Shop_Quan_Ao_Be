@@ -1,15 +1,15 @@
-package com.application.fusamate.service.impl;
+package com.example.backend.service.impl;
 
-import com.application.fusamate.dto.stats.HumanStatsDto;
-import com.application.fusamate.dto.stats.OrderStatusDto;
-import com.application.fusamate.dto.stats.ProductStatusDto;
-import com.application.fusamate.dto.stats.StatusCountStatsDto;
-import com.application.fusamate.entity.stats.AnnualReport;
-import com.application.fusamate.entity.stats.CustomerGrowthReport;
-import com.application.fusamate.entity.stats.TopSalesCustomer;
-import com.application.fusamate.entity.stats.TopSalesProduct;
-import com.application.fusamate.repository.*;
-import com.application.fusamate.service.StatsService;
+import com.example.backend.dto.sale.HumanStatsDto;
+import com.example.backend.dto.sale.OrderStatusDto;
+import com.example.backend.dto.sale.ProductStatusDto;
+import com.example.backend.dto.sale.StatusCountStatsDto;
+import com.example.backend.entity.AnnualReport;
+import com.example.backend.entity.CustomerGrowthReport;
+import com.example.backend.entity.TopSalesCustomer;
+import com.example.backend.entity.TopSalesProduct;
+import com.example.backend.repository.*;
+import com.example.backend.service.StatsService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

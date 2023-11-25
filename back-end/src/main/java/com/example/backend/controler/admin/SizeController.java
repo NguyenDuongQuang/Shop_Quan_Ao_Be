@@ -1,12 +1,12 @@
 package com.example.backend.controler.admin;
 
-import com.application.fusamate.dto.SizeDto;
-import com.application.fusamate.dto.UpdateSizeDto;
-import com.application.fusamate.entity.Size;
-import com.application.fusamate.model.ResponseChangeDataModel;
-import com.application.fusamate.model.ResponseGetDataModel;
-import com.application.fusamate.model.SizeSearchCriteriaModel;
-import com.application.fusamate.service.SizeService;
+import com.example.backend.dto.SizeDto;
+import com.example.backend.dto.UpdateSizeDto;
+import com.example.backend.entity.Size;
+import com.example.backend.model.ResponseChangeDataModel;
+import com.example.backend.model.ResponseGetDataModel;
+import com.example.backend.model.SizeSearchCriteriaModel;
+import com.example.backend.service.SizeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;

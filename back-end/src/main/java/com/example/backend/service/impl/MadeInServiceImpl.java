@@ -1,13 +1,13 @@
-package com.application.fusamate.service.impl;
+package com.example.backend.service.impl;
 
-import com.application.fusamate.configuration.Constants;
-import com.application.fusamate.dto.MadeInDto;
-import com.application.fusamate.dto.UpdateMadeInDto;
-import com.application.fusamate.entity.MadeIn;
-import com.application.fusamate.model.MadeInSearchCriteriaModel;
-import com.application.fusamate.repository.MadeInRepository;
-import com.application.fusamate.repository.criteria.MadeInCriteriaRepository;
-import com.application.fusamate.service.MadeInService;
+import com.example.backend.config.Constants;
+import com.example.backend.dto.MadeInDto;
+import com.example.backend.dto.UpdateMadeInDto;
+import com.example.backend.entity.MadeIn;
+import com.example.backend.model.MadeInSearchCriteriaModel;
+import com.example.backend.repository.MadeInRepository;
+import com.example.backend.repository.criteria.MadeInCriteriaRepository;
+import com.example.backend.service.MadeInService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;

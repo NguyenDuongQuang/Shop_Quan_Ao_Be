@@ -1,11 +1,12 @@
 package com.example.backend.controler.admin;
-import com.application.fusamate.dto.ColorDto;
-import com.application.fusamate.dto.UpdateColorDto;
-import com.application.fusamate.entity.Color;
-import com.application.fusamate.model.ColorSearchCriteriaModel;
-import com.application.fusamate.model.ResponseChangeDataModel;
-import com.application.fusamate.model.ResponseGetDataModel;
-import com.application.fusamate.service.ColorService;
+
+import com.example.backend.dto.ColorDto;
+import com.example.backend.dto.UpdateColorDto;
+import com.example.backend.entity.Color;
+import com.example.backend.model.ColorSearchCriteriaModel;
+import com.example.backend.model.ResponseChangeDataModel;
+import com.example.backend.model.ResponseGetDataModel;
+import com.example.backend.service.ColorService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;

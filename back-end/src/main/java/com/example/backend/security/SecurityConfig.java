@@ -1,6 +1,9 @@
-package com.application.fusamate.security;
+package com.example.backend.security;
 
 
+import com.example.backend.exception.JWTAccessDeniedHandler;
+import com.example.backend.exception.JwtAuthenticationEntryPoint;
+import com.example.backend.filter.JwtFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -13,9 +16,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.application.fusamate.exception.JWTAccessDeniedHandler;
-import com.application.fusamate.exception.JwtAuthenticationEntryPoint;
-import com.application.fusamate.filter.JwtFilter;
+
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

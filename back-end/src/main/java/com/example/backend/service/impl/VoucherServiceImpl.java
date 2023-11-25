@@ -1,14 +1,14 @@
-package com.application.fusamate.service.impl;
+package com.example.backend.service.impl;
 
-import com.application.fusamate.dto.VoucherDto;
-import com.application.fusamate.entity.Voucher;
-import com.application.fusamate.entity.stats.TopSalesCustomer;
-import com.application.fusamate.model.VoucherSearchCriteriaModel;
-import com.application.fusamate.repository.CustomerRepository;
-import com.application.fusamate.repository.TopSalesCustomerRepository;
-import com.application.fusamate.repository.VoucherRepository;
-import com.application.fusamate.repository.criteria.VoucherCriteriaRepository;
-import com.application.fusamate.service.VoucherService;
+import com.example.backend.dto.VoucherDto;
+import com.example.backend.entity.TopSalesCustomer;
+import com.example.backend.entity.Voucher;
+import com.example.backend.model.VoucherSearchCriteriaModel;
+import com.example.backend.repository.CustomerRepository;
+import com.example.backend.repository.TopSalesCustomerRepository;
+import com.example.backend.repository.VoucherRepository;
+import com.example.backend.repository.criteria.VoucherCriteriaRepository;
+import com.example.backend.service.VoucherService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;

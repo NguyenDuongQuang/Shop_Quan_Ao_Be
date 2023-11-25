@@ -1,11 +1,11 @@
 package com.example.backend.controler.admin;
 
-import com.application.fusamate.dto.VoucherDto;
-import com.application.fusamate.entity.Voucher;
-import com.application.fusamate.model.ResponseChangeDataModel;
-import com.application.fusamate.model.ResponseGetDataModel;
-import com.application.fusamate.model.VoucherSearchCriteriaModel;
-import com.application.fusamate.service.VoucherService;
+import com.example.backend.dto.VoucherDto;
+import com.example.backend.entity.Voucher;
+import com.example.backend.model.ResponseChangeDataModel;
+import com.example.backend.model.ResponseGetDataModel;
+import com.example.backend.model.VoucherSearchCriteriaModel;
+import com.example.backend.service.VoucherService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;

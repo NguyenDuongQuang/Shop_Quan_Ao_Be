@@ -1,14 +1,14 @@
 package com.example.backend.controler.admin;
 
-import com.application.fusamate.configuration.MailTemplate;
-import com.application.fusamate.dto.EmployeeDto;
-import com.application.fusamate.dto.UpdateProfileDto;
-import com.application.fusamate.entity.Employee;
-import com.application.fusamate.model.EmployeeSearchCriteriaModel;
-import com.application.fusamate.model.ResponseChangeDataModel;
-import com.application.fusamate.model.ResponseGetDataModel;
-import com.application.fusamate.service.EmployeeService;
-import com.application.fusamate.utils.EmailService;
+import com.example.backend.config.MailTemplate;
+import com.example.backend.dto.EmployeeDto;
+import com.example.backend.dto.UpdateProfileDto;
+import com.example.backend.entity.Employee;
+import com.example.backend.model.EmployeeSearchCriteriaModel;
+import com.example.backend.model.ResponseChangeDataModel;
+import com.example.backend.model.ResponseGetDataModel;
+import com.example.backend.service.EmployeeService;
+import com.example.backend.util.EmailService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;

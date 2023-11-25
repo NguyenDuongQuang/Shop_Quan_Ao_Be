@@ -1,9 +1,9 @@
-package com.application.fusamate.service;
+package com.example.backend.service;
 
-import com.application.fusamate.dto.ProductDetailDto;
-import com.application.fusamate.dto.UpdateProductDetailDto;
-import com.application.fusamate.entity.ProductDetail;
-import com.application.fusamate.model.ProductDetailSearchCriteriaModel;
+import com.example.backend.dto.ProductDetailDto;
+import com.example.backend.dto.UpdateProductDetailDto;
+import com.example.backend.entity.ProductDetail;
+import com.example.backend.model.ProductDetailSearchCriteriaModel;
 import org.springframework.data.domain.Page;
 
 public interface ProductDetailService {

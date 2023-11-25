@@ -1,9 +1,8 @@
-package com.application.fusamate.service;
-
-import com.application.fusamate.dto.EmployeeDto;
-import com.application.fusamate.dto.UpdateProfileDto;
-import com.application.fusamate.entity.Employee;
-import com.application.fusamate.model.EmployeeSearchCriteriaModel;
+package com.example.backend.service;
+import com.example.backend.dto.EmployeeDto;
+import com.example.backend.dto.UpdateProfileDto;
+import com.example.backend.entity.Employee;
+import com.example.backend.model.EmployeeSearchCriteriaModel;
 import org.springframework.data.domain.Page;
 
 public interface EmployeeService {

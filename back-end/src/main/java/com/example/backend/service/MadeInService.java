@@ -1,9 +1,8 @@
-package com.application.fusamate.service;
-
-import com.application.fusamate.dto.MadeInDto;
-import com.application.fusamate.dto.UpdateMadeInDto;
-import com.application.fusamate.entity.MadeIn;
-import com.application.fusamate.model.MadeInSearchCriteriaModel;
+package com.example.backend.service;
+import com.example.backend.dto.MadeInDto;
+import com.example.backend.dto.UpdateMadeInDto;
+import com.example.backend.entity.MadeIn;
+import com.example.backend.model.MadeInSearchCriteriaModel;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

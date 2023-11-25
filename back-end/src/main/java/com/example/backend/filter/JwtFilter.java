@@ -6,9 +6,8 @@ import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import com.application.fusamate.service.impl.EmployeeServiceImpl;
-import com.application.fusamate.utils.TokenManager;
+import com.example.backend.service.impl.EmployeeServiceImpl;
+import com.example.backend.util.TokenManager;
 import io.jsonwebtoken.MalformedJwtException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
