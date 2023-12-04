@@ -9,17 +9,6 @@ import java.util.Properties;
 
 @Configuration
 public class JavaEmailSenderConfig {
-//    spring.mail.host=smtp.gmail.com
-//    spring.mail.port= 25
-//    spring.mail.username= test
-//    spring.mail.password= test
-//    spring.mail.host=smtp.gmail.com
-//    spring.mail.port= 25
-//    spring.mail.username= test
-//    spring.mail.password= test
-//    spring.mail.properties.mail.smtp.auth=true
-//    spring.mail.properties.mail.smtp.starttls.enable=true
-//    spring.mail.properties.mail.smtp.starttls.required=true
     @Bean
     public JavaMailSender getJavaMailSender() {
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();

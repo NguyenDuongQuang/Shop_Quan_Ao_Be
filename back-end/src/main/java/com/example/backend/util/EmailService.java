@@ -20,7 +20,6 @@ public class EmailService {
             MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, "utf-8");
             helper.setText(text, true);
             helper.setTo(to);
-//            helper.setSubject("Xác thực quên mật khẩu");
             helper.setFrom(Constants.MY_EMAIL);
             javaMailSender.send(mimeMessage);
         } catch (MessagingException e) {

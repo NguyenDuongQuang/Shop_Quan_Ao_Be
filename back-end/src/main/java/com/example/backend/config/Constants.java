@@ -1,22 +1,19 @@
 package com.example.backend.config;
 
 public class Constants {
-    // GHN API
     public static final String GHN_TOKEN = "531c855f-15f2-11ed-8636-7617f3863de9";
     public static final Integer SHOP_ID = 3153358;
 
-    // COMMON CONFIG
-    // public static final String BASE_URL_FRONTEND = "localhost:3000";
     public static final String BASE_URL_FRONTEND = "cms-fusamate.site";
-//    public static final String BASE_URL_IMAGE = "http://fusamate.site/static/";
+
     public static final String BASE_URL_IMAGE = "/Users/abc/Downloads/Workspace/projectFPT/fusamate-be/src/main/resources/static/image/";
 
-    public static final String SUFFIX_PASSWORD_DEFAULT = "@Fusamate2022";
-    public static String MY_EMAIL = "hungdv21082002@gmail.com";
+    public static final String SUFFIX_PASSWORD_DEFAULT = "@FiveStart2023";
+    public static String MY_EMAIL = "ndq1234pn@gmail.com";
     public static String MY_PASSWORD = "alomnfohjmtscyvl";
     public static final int DEFAULT_PAGE = 0;
     public static final int DEFAULT_PAGE_SIZE = 3;
-    //
+
     public static String DUPLICATED_USER = "DUPLICATED_USER";
     public static String DUPLICATED_PRODUCT_SET = "DUPLICATED_PRODUCT_SET";
     public static String DUPLICATED_BRAND = "DUPLICATED_BRAND";
