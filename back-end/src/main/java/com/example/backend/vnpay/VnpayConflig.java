@@ -1,4 +1,4 @@
-package com.example.backend.config;
+package com.example.backend.vnpay;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
@@ -92,4 +92,3 @@ public class VnpayConflig {
         }
     }
 }
-
