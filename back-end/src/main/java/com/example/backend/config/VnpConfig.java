@@ -1,4 +1,4 @@
-package com.example.backend.vnpay;
+package com.example.backend.config;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
@@ -11,23 +11,19 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
-public class VnpayConflig {
+public class VnpConfig {
+
     public static String vnp_PayUrl = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-    public static String vnp_Returnurl = "http://127.0.0.1:8080/payment/return?";
-    public static String vnp_ReturnurlMuaNgay = "http://127.0.0.1:8080/payment/MuaNgay/return?";
-    public static String vnp_TmnCode = "JR46KTRL";
-    public static String vnp_HashSecret = "XATJYHRKXDDVMNMIXGWZQEXJWQJQUQXO";
+    public static String vnp_Returnurl = "http://127.0.0.1:3000/";
+    public static String vnp_TmnCode = "ZS1QGQOD";
+    public static String vnp_HashSecret = "LWJYEBBUZMYQNSNQXVWVGGBGIEIYCQDE";
     public static String vnp_apiUrl = "https://sandbox.vnpayment.vn/merchant_webapi/api/transaction";
 
-    public static String get_Return_url (long amonut, String id_bill){
-        vnp_Returnurl = vnp_Returnurl + "amout=" + amonut + "&id_user=" + id_bill;
-        return vnp_Returnurl;
-    }
+//    public static String get_Return_url (double amonut, String id_bill){
+//        vnp_Returnurl = vnp_Returnurl + "amout=" + amonut + "&id_user=" + id_bill;
+//        return vnp_Returnurl;
+//    }
 
-    public static String get_Return_urlMuaNgay (long amonut, String id_bill){
-        vnp_ReturnurlMuaNgay = vnp_ReturnurlMuaNgay + "amout=" + amonut + "&id_user=" + id_bill;
-        return vnp_ReturnurlMuaNgay;
-    }
 
     public static String hmacSHA512(final String key, final String data) {
         try {
@@ -63,7 +59,7 @@ public class VnpayConflig {
     }
 
     public static int orderReturn(HttpServletRequest request) {
-        Map fields = new HashMap();
+        Map fields = new HashMap<>();
         for (Enumeration params = request.getParameterNames(); params.hasMoreElements(); ) {
             String fieldName = null;
             String fieldValue = null;
@@ -92,3 +88,5 @@ public class VnpayConflig {
         }
     }
 }
+
+
