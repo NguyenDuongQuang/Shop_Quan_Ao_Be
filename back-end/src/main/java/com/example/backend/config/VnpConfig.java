@@ -14,7 +14,7 @@ import java.util.Random;
 public class VnpConfig {
 
     public static String vnp_PayUrl = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-    public static String vnp_Returnurl = "http://127.0.0.1:3000/cart/checkout-success";
+    public static String vnp_Returnurl = "http://localhost:3000/cart/checkout-success";
     public static String vnp_TmnCode = "ZS1QGQOD";
     public static String vnp_HashSecret = "LWJYEBBUZMYQNSNQXVWVGGBGIEIYCQDE";
     public static String vnp_apiUrl = "https://sandbox.vnpayment.vn/merchant_webapi/api/transaction";
