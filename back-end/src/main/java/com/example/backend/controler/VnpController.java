@@ -17,8 +17,7 @@ public class VnpController {
     Orders dto;
     @PostMapping("/create")
     public ResponseEntity<?> createUrl(@RequestBody Orders hoaDonDTO) {
-
-            dto = hoaDonDTO;
+            dto=hoaDonDTO;
             return vnpayService.createPayment(hoaDonDTO);
     }
 
