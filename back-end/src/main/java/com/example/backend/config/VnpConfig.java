@@ -14,16 +14,12 @@ import java.util.Random;
 public class VnpConfig {
 
     public static String vnp_PayUrl = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-    public static String vnp_Returnurl = "http://localhost:3000/cart/checkout-success";
+    public static String vnp_Returnurl = "http://localhost:8080/api/public/payment/checkPay";
     public static String vnp_TmnCode = "ZS1QGQOD";
+    public static String urlSuccess = "http://localhost:3000/cart/checkout-success";
+    public static String urlFail = "http://localhost:3000/cart/checkout-fail";
     public static String vnp_HashSecret = "LWJYEBBUZMYQNSNQXVWVGGBGIEIYCQDE";
     public static String vnp_apiUrl = "https://sandbox.vnpayment.vn/merchant_webapi/api/transaction";
-
-//    public static String get_Return_url (double amonut, String id_bill){
-//        vnp_Returnurl = vnp_Returnurl + "amout=" + amonut + "&id_user=" + id_bill;
-//        return vnp_Returnurl;
-//    }
-
 
     public static String hmacSHA512(final String key, final String data) {
         try {

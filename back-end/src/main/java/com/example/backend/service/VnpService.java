@@ -3,8 +3,13 @@ package com.example.backend.service;
 import com.example.backend.config.VnpConfig;
 import com.example.backend.dto.VNPayDto;
 import com.example.backend.entity.Orders;
+import com.example.backend.repository.OrdersRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.view.RedirectView;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
@@ -14,6 +19,7 @@ import java.util.*;
 
 @Service
 public class VnpService {
+
 
     public ResponseEntity<VNPayDto> createPayment(Orders hoaDonDTO){
         String vnp_Version = "2.1.0";
@@ -36,7 +42,7 @@ public class VnpService {
         String locate = "vn";
         vnp_Params.put("vnp_Locale", locate);
 
-        vnp_Params.put("vnp_ReturnUrl", VnpConfig.vnp_Returnurl);
+        vnp_Params.put("vnp_ReturnUrl", VnpConfig.vnp_Returnurl + "?orderID="+ hoaDonDTO.getId());
         vnp_Params.put("vnp_IpAddr", vnp_IpAddr);
 
         Calendar cld = Calendar.getInstance(TimeZone.getTimeZone("Etc/GMT+7"));
