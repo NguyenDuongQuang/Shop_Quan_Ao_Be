@@ -1,5 +1,6 @@
 package com.example.backend.controler.view;
 
+import com.example.backend.dto.sale.CartDto;
 import com.example.backend.dto.sale.ItemAddedToCartDto;
 import com.example.backend.dto.sale.ItemQuantityUpdateToCartDto;
 import com.example.backend.dto.sale.ItemRemovedFromCartDto;
@@ -49,5 +50,4 @@ public class CartController {
         cartService.removeAllFromCart(userAuthToken);
         return ResponseEntity.ok().build();
     }
-
 }

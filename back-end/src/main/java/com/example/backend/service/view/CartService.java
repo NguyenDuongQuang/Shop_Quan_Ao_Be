@@ -13,6 +13,6 @@ public interface CartService {
 
     CartGeneral removeItemFromCart(ItemRemovedFromCartDto itemRemovedFromCartDto);
 
-    void removeAllFromCart(String userAuthToken);
+    void removeAllFromCart(String removeCartUser);
 
 }
