@@ -139,7 +139,7 @@ public class ProductSaleServiceImpl implements ProductSaleService {
     }
 
     @Override
-    public List<GetAllProductSaleDto> getAllActiveAndAvailableProductsByBrand(Integer brandId) {
+    public List<GetAllProductSaleDto>   getAllActiveAndAvailableProductsByBrand(Integer brandId) {
         Brand brand = brandRepository.findById(brandId).orElseThrow(() ->
                 new ResponseStatusException(HttpStatus.NOT_FOUND, "Không tìm thấy thương hiệu"));
         if (brand.getStatus() != 1)
